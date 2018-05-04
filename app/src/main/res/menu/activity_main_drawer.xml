@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_userprofile"
+            android:icon="@drawable/userprofile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_bookslist"
+            android:icon="@drawable/books"
+            android:title="Books" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/chat"
+            android:title="Chats" />
+
+
+            <item
+
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Feedback"
+                />
+            <item
+                 android:title="Logout"
+                 android:id="@+id/menu_logout"
+                android:icon="@drawable/logout"/>
+
+    </group>
+</menu>

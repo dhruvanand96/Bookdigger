@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Book Dig</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="userdetails_update">Edit Profile</string>
+
+
+    <string name="BName">Book Name</string>
+    <string name="BAuthor">Author </string>
+    <string name="BPublisher">Publisher</string>
+    <string name="BCondition">Condition</string>
+    <string name="BPrice">Add A Price </string>n
+
+    <string name="AInsertB">Add Book</string>
+    <string name="ARegister">Register</string>
+    <string name="ALogin">Login</string>
+    <string name="AViewU">User Details</string>
+    <string name="call">Call</string>
+    <string name="message">Send Message</string>
+
+
+    <string name="type_a_message">Type a message...</string>
+
+
+
+
+</resources>

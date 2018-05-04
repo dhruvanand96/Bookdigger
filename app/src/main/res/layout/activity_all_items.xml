@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.bookseller.ViewBookDetails">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/BName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:padding="10dp"/>
+
+
+
+            <TextView
+                android:id="@+id/BAuthor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:padding="10dp"/>
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/BImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Publisher"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/BPublisher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:padding="6dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorline" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Condition"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:padding="10dp" />
+
+
+            <TextView
+                android:id="@+id/BCondition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:padding="6dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorline" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Category"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:padding="10dp" />
+
+
+            <TextView
+                android:id="@+id/BType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:padding="6dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorline" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/BPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:padding="6dp"/>
+
+                    <Button
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:text="Contact Seller"
+                        android:id="@+id/buttoncall"
+                        android:layout_weight="0.01"
+                        android:elevation="10dp"
+                        android:textAlignment="center"
+                        android:textSize="24sp"
+                        android:padding="5dp"
+                        android:textColor="#ffffffff"
+                        android:background="@color/colorPrimary"/>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</ScrollView>

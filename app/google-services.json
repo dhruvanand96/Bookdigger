@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "884935731064",
+    "firebase_url": "https://bookdigger-35c99.firebaseio.com",
+    "project_id": "bookdigger-35c99",
+    "storage_bucket": "bookdigger-35c99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884935731064:android:ed8c8b9ead04c320",
+        "android_client_info": {
+          "package_name": "com.example.hp.bookseller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884935731064-7f16fulumikbk5fnpt13fvbe4ufj7jaf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtMVe0qpmSm7mk1DC19afnq69H2pKgP7o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
